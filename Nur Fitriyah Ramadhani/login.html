@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Xofii.png" alt="Logo" class="logo-image">
+            Xofii
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="news.html">News</a>
+            <a href="about.html">About</a>
+            <a href="form.html">Form</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html">Login</a>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+    <main>
+        <h2>Silakan Masuk</h2>
+        <p>Dengan login, Anda dapat menyimpan preferensi, riwayat, dan pengaturan pengguna Anda. Selain itu, Anda akan dapat mengakses konten yang tidak tersedia untuk pengguna umum. Ini bisa berupa artikel, fitur, atau layanan eksklusif setelah Anda masuk.</p>
+        <!-- Form login yang mengarah ke dashboard.html -->
+        <form action="dashboard.html" method="get"> <!-- Ubah method jadi GET untuk kemudahan testing -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required> <br>
+            <input type="submit" value="Login">
+        </form>
+        <p>Belum punya akun? <a href="register.html">Daftar di sini</a></p> <!-- Link ke halaman daftar -->
+    </main>
+    <footer>
+        <p>&copy; 2024 Nur Fitriyah Ramadhani. PTIK A 23</p>
+    </footer>
+</body>
+</html>
